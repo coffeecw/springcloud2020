@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8dd166-8680-44f7-a420-600802bfa346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/cwcoffee/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cwcoffee/springcloud/entity/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cwcoffee/springcloud/entity/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cwcoffee/springcloud/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cwcoffee/springcloud/entity/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cwcoffee/springcloud/entity/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cwcoffee/springcloud/entity/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/cwcoffee/springcloud/entity/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/cwcoffee/springcloud/entity/Payment.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-order80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7001/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cwcoffee/springcloud/entity/Payment.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cwcoffee/springcloud/entity/CommonResult.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="756">
+              <caret line="46" column="21" selection-start-line="21" selection-start-column="7" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,16 +82,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-423">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="-122">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cwcoffee/springcloud/ConsumerOrder80.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="141">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,11 +102,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2170">
-              <caret line="343" column="14" selection-start-line="343" selection-start-column="14" selection-end-line="343" selection-end-column="14" />
+            <state relative-caret-position="162">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/cwcoffee/springcloud/EurekaMain7001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +173,9 @@
         <option value="$PROJECT_DIR$/cloud-api-commons/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/cwcoffee/springcloud/EurekaMain7001.java" />
       </list>
     </option>
   </component>
@@ -214,24 +225,6 @@
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,34 +251,25 @@
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -293,11 +277,19 @@
             <path>
               <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +307,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593331734661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593335810231" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,7 +340,7 @@
     </option>
     <option name="contentProportion" value="0.24884081" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerOrder80">
+  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
     <configuration name="ConsumerOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order80" />
       <extension name="coverage">
@@ -362,6 +354,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cwcoffee.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cwcoffee.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cwcoffee.springcloud.PaymentMain8001" />
@@ -371,6 +376,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.ConsumerOrder80" />
       </list>
     </recent_temporary>
@@ -387,7 +393,7 @@
       <updated>1592969912097</updated>
       <workItem from="1592969916212" duration="14358000" />
       <workItem from="1593313854560" duration="5946000" />
-      <workItem from="1593330147873" duration="1526000" />
+      <workItem from="1593330147873" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="消费者订单模块demo完成">
       <created>1593330506588</created>
@@ -396,16 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1593330506589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="工程重构--将公共代码提取到一个模块当中">
+      <created>1593331801831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593331801831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25932000" />
+    <option name="totallyTimeSpent" value="28413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.2980333" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -424,17 +437,17 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.443686" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.27303755" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3532423" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.22487223" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" visible="true" weight="0.5085324" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" visible="true" weight="0.24744028" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2246596" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1580938" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -448,7 +461,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="消费者订单模块demo完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="消费者订单模块demo完成" />
+    <MESSAGE value="工程重构--将公共代码提取到一个模块当中" />
+    <option name="LAST_COMMIT_MESSAGE" value="工程重构--将公共代码提取到一个模块当中" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/site/fr/markdown/markdown.md" />
@@ -572,15 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2170">
-          <caret line="343" column="14" selection-start-line="343" selection-start-column="14" selection-end-line="343" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="-557">
+          <caret line="242" column="14" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -600,13 +607,6 @@
     <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -624,15 +624,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cwcoffee/springcloud/ConsumerOrder80.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="141">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="46" column="21" selection-start-line="21" selection-start-column="7" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/cwcoffee/springcloud/EurekaMain7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="66" />
         </state>
       </provider>
     </entry>
