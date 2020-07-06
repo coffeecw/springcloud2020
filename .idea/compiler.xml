@@ -26,7 +26,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumerzk-order80" target="1.8" />
-      <module name="ghgh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

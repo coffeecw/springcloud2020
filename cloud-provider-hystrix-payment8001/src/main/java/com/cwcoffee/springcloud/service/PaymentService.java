@@ -21,7 +21,8 @@ public class PaymentService {
             @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "3000")
     })
     public String paymentInfo_timeout(Integer id){
-        int timeNumber = 2;
+        int timeNumber = 5;
+//        int i = 10/0;
         try {
             TimeUnit.SECONDS.sleep(timeNumber);
         } catch (InterruptedException e) {
@@ -31,6 +32,6 @@ public class PaymentService {
     }
 
     public String paymentInfo_timeOutHandle(Integer id){
-        return "线程池: "+Thread.currentThread().getName()+"paymentInfo_timeOutHandle"+id+"\t"+"o(╥﹏╥)o";
+        return "线程池: "+Thread.currentThread().getName()+"8001系统繁忙或者运行报错，请稍后再试"+id+"\t"+"o(╥﹏╥)o";
     }
 }
