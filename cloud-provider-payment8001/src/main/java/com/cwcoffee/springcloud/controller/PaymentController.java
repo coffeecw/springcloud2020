@@ -30,7 +30,7 @@ public class PaymentController {
     @Resource
     private DiscoveryClient discoveryClient;
 
-    @PostMapping("/insert")
+    @PostMapping("/payment/insert")
     public CommonResult add(@RequestBody Payment payment){
         int insert = paymentService.insert(payment);
         if(insert > 0){
@@ -42,7 +42,7 @@ public class PaymentController {
         }
     }
 
-    @GetMapping("/get/{id}")
+    @GetMapping("/payment/get/{id}")
     public CommonResult get(@PathVariable("id") Long id){
         Payment payment = paymentService.getPaymentById(id);
         if(payment!=null){
