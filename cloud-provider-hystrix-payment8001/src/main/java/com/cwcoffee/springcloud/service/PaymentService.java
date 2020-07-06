@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class PaymentService {
 
     public String paymentInfo_ok(Integer id){
+        int i = 10 / 0;
         return "线程池: "+Thread.currentThread().getName()+"paymentInfo_ok"+id+"\t"+"哈哈哈";
     }
 
