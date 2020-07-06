@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ghgh/ghgh.iml" filepath="$PROJECT_DIR$/ghgh/ghgh.iml" />
     </modules>
   </component>
 </project>
