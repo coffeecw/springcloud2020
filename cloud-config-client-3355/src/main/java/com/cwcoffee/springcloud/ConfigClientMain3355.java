@@ -2,19 +2,16 @@ package com.cwcoffee.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author cw
- * @Date 2020/07/07 11:49
+ * @Date 2020/07/07 14:33
  */
 @SpringBootApplication
-//开启配置中心服务
-@EnableConfigServer
 @EnableEurekaClient
-public class ConfigCenterMain3344 {
+public class ConfigClientMain3355 {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigCenterMain3344.class,args);
+        SpringApplication.run(ConfigClientMain3355.class,args);
     }
 }
