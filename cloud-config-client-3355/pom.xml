@@ -12,6 +12,11 @@
     <artifactId>cloud-config-client-3355</artifactId>
 
     <dependencies>
+        <!--给cloud-config-center-3355客户端添加消息总线支持-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
         <!--eureka-client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
