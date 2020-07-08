@@ -23,7 +23,7 @@ public class MessageServiceImpl implements MessageService {
     public String send() {
         String serial = UUID.randomUUID().toString();
         output.send(MessageBuilder.withPayload(serial).build());
-        System.out.println("****serial"+serial);
+        System.out.println("****serial  "+serial);
         return null;
     }
 }
