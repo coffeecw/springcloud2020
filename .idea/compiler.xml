@@ -29,10 +29,12 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloudalibaba-provider-payment9001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumerzk-order80" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
       <module name="ghgh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
